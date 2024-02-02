@@ -8,7 +8,7 @@ print(art.logo)
 print("Welcome to the Hangman game!")
 
 chosen_word = random.choice(words.word_list)
-print(f"Chosen word is {chosen_word}")
+# print(f"Chosen word is {chosen_word}")
 
 display = []
 for _ in chosen_word:
