@@ -58,4 +58,5 @@ while not endgame:
         elif lives == 0:
             endgame = True
             print(art.stages[lives])
+            print(f"The word was {chosen_word}.")
             print("You lost!")
